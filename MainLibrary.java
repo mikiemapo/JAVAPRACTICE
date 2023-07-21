@@ -1,4 +1,4 @@
-class Main {
+class MainLibrary {
   public static void main(String[] args) {
     Library library1 = new Library();
     Library library2 = new Library();
