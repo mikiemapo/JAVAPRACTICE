@@ -1,3 +1,5 @@
+package Library;
+
 class MainLibrary {
   public static void main(String[] args) {
     Library library1 = new Library();
