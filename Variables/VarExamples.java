@@ -1,3 +1,5 @@
+package Variables;
+
 class VarExamples {
     static int stcNum = 100;
 

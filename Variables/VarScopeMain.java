@@ -1,3 +1,5 @@
+package Variables;
+
 public class VarScopeMain {
     static String stcStr = "Class/Static Scope";
     String objStr = "Object/Instance Scope";
