@@ -17,11 +17,25 @@ public class Library {
         System.out.println("Loaned Book" + name);
     }
 
+    public void returnBook() {
+        // increment var value
+        numOfBooksAvail++;
+        // incremnt class static var value
+        Library.numOfBooksInDistrict++;
+        System.out.println("Returned book to library: " + name);
+    }
+
     public void openPublic() {
         // increament var value
         numOfOpenLib++;
         // change class static var value
         Library.numOfBooksInDistrict += numOfBooksAvail;
         System.out.println(name + " is Open for Public");
+    }
+
+    // static mebthod allways belongh to class
+    public static void checkDistLibStatus() {
+        System.out.println("There's" + " " + numOfOpenLib + " " + "libraries open right now" + " " +
+                Library.numOfBooksInDistrict + " " + "books available throughout the district");
     }
 }
