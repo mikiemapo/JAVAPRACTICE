@@ -1,3 +1,5 @@
+package arraysandthings;
+
 public class ArrayThings {
     public static void main(String[] args) {
         System.out.println("============ ====ARAYS==== ======");
